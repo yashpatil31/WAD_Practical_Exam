@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+</head>
+<body>
+    <div data-role="page" id="home">
+        <div data-role="header" class="bg-success">
+            <a href="#home" class="ui-btn ui-btn-icon-home ui-btn-icon-left">Home</a>
+            <a href="#aboutus" class="ui-btn ui-btn-icon-right">Contact us</a>
+            <h1 class="text-light">Veggie Mart</h1>
+        </div>
+        <div data-role="content" data-theme="b" class="d-flex align-items-center justify-content-center flex-column">
+            <a href="#home"><img src="./img/logo.png" width="100px" height="100px"></a>
+            <h2 class="text-success">Veggie Mart</h2>
+            <p>we provide fresh fruits, vegetables and nuts which are directly outsourced from farmers are a stored hygienic environments</p>
+        </div>
+        <div data-role="content">
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <a href="#fruits"><img src="./img/fruits/fruits.png" width="200px" height="200px"></a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <a href="#vegetables"><img src="./img/vegetables/vegetables.png" width="200px" height="200px"></a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <a href="#nuts"><img src="./img/nuts/nuts.png" width="200px" height="200px"></a>
+            </div>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" data-filter="true" data-filter-placeholder="Search for ..." class="ui-content">
+                <li><a href="#fruits">Fruits</a></li>
+                <li><a href="#vegetables">Vegetables</a></li>
+                <li><a href="#nuts">Nuts</a></li>
+            </ul>
+        </div>
+        <div data-role="footer" class="bg-success">
+            <h3 class="text-light">copyright@veggiemart.com</h3>
+        </div>
+    </div>
+
+    <div data-role="page" id="fruits">
+        <div data-role="header" class="bg-success">
+            <a href="#home" class="ui-btn ui-btn-icon-home ui-btn-icon-left">Home</a>
+            <a href="#aboutus" class="ui-btn ui-btn-icon-right">Contact us</a>
+            <h1 class="text-light">Veggie Mart</h1>
+        </div>
+        <div data-role="content" data-theme="b">
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <img src="./img/fruits/apple.png" width="200px" height="200px">
+                <div class="container-fluid mt-4">
+                    <h3 class="text-center">Apple</h3>
+                    <p>An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus.</p>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <img src="./img/fruits/mango.png" width="200px" height="200px">
+                <div class="container-fluid mt-4">
+                    <h3 class="text-center">Mango</h3>
+                    <p>Mangoes are a fruit that is part of the drupe family. Mangoes havea thin, waxy, red and green skin that covers the outside. Inside,there is a large pit in the middle of the bright orange flesh.Mangoes have a sweet, tangy flavor.</p>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <img src="./img/fruits/strawberry.png" width="200px" height="200px">
+                <div class="container-fluid">
+                    <h3 class="text-center">Strawberry</h3>
+                    <p>Strawberries are bright red, juicy, and sweet. They're an excellent source of vitamin C and manganese and also contain decent amounts of folate (vitamin B9) and potassium.</p>
+                </div>
+            </div>
+        </div>
+        <div data-role="footer" class="bg-success">
+            <h3 class="text-light">copyright@veggiemart.com</h3>
+        </div>
+    </div>
+
+    <div data-role="page" id="vegetables">
+        <div data-role="header" class="bg-success">
+            <a href="#home" class="ui-btn ui-btn-icon-home ui-btn-icon-left">Home</a>
+            <a href="#aboutus" class="ui-btn ui-btn-icon-right">Contact us</a>
+            <h1 class="text-light">Veggie Mart</h1>
+        </div>
+        <div data-role="content" data-theme="b">
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <img src="./img/vegetables/onion.png" width="200px" height="200px">
+                <div class="container-fluid mt-4">
+                    <h3 class="text-center">Onion</h3>
+                    <p>An onion, also known as the bulb onion or common onion, is a vegetable that is the most widely cultivated species of the genus Allium. The shallot is a botanical variety of the onion which was classified as a separate species until 2011.</p>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <img src="./img/vegetables/potato.png" width="200px" height="200px">
+                <div class="container-fluid mt-4">
+                    <h3 class="text-center">Potato</h3>
+                    <p>The potato is a starchy food, a tuber of the plant Solanum tuberosum and is a root vegetable native to the Americas. The plant is a perennial in the nightshade family Solanaceae. Wild potato species can be found from the southern United States to southern Chile. </p>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <img src="./img/vegetables/tomato.png" width="200px" height="200px">
+                <div class="container-fluid">
+                    <h3 class="text-center">Tomato</h3>
+                    <p>The tomato is the edible berry of the plant Solanum lycopersicum, commonly known as the tomato plant. The species originated in western South America, Mexico, and Central America. </p>
+                </div>
+            </div>
+        </div>
+        <div data-role="footer" class="bg-success">
+            <h3 class="text-light">copyright@veggiemart.com</h3>
+        </div>
+    </div>
+
+    <div data-role="page" id="nuts">
+        <div data-role="header" class="bg-success">
+            <a href="#home" class="ui-btn ui-btn-icon-home ui-btn-icon-left">Home</a>
+            <a href="#aboutus" class="ui-btn ui-btn-icon-right">Contact us</a>
+            <h1 class="text-light">Veggie Mart</h1>
+        </div>
+        <div data-role="content" data-theme="b">
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <img src="./img/nuts/almond.png" width="200px" height="200px">
+                <div class="container-fluid mt-4">
+                    <h3 class="text-center">Almond</h3>
+                    <p>The almond is a species of tree native to Iran and surrounding countries, including the Levant. The almond is also the name of the edible and widely cultivated seed of this tree.</p>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <img src="./img/nuts/walnut.png" width="200px" height="200px">
+                <div class="container-fluid mt-4">
+                    <h3 class="text-center">Walnut</h3>
+                    <p>A walnut is the edible seed of any tree of the genus Juglans, particularly the Persian or English walnut, Juglans regia. The fruits of trees in the are often confused with drupes. </p>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <img src="./img/nuts/pistachio.png" width="200px" height="200px">
+                <div class="container-fluid">
+                    <h3 class="text-center">Pistachio</h3>
+                    <p>The pistachio, a member of the cashew family, is a small tree originating from an area that includes Afghanistan, Central Asia, and Iran. The tree produces seeds that are widely consumed as food.</p>
+                </div>
+            </div>
+        </div>
+        <div data-role="footer" class="bg-success">
+            <h3 class="text-light">copyright@veggiemart.com</h3>
+        </div>
+    </div>
+
+    <div data-role="page" id="aboutus" class="bg-success">
+        <div data-role="header">
+            <a href="#home" class="ui-btn ui-btn-icon-home ui-btn-icon-left">Home</a>
+            <a href="#aboutus" class="ui-btn ui-btn-icon-right">Contact us</a>
+            <h1 class="text-light">Veggie Mart</h1>
+        </div>
+        <div data-role="content" class="d-flex align-items-center justify-content-center h-100" data-theme="b">
+            <ul data-role="listview" class="ui-content">
+                <li>Phone: +91-4869395933</li>
+                <li>E-Mail: support@veggiemart.com</li>
+            </ul>
+        </div>
+        <div data-role="footer" class="bg-success">
+            <h3 class="text-light">copyright@veggiemart.com</h3>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</html>
