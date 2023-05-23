@@ -10,11 +10,13 @@ form.addEventListener("submit", (e) =>{
     if (!reg.test(input1.value)) {
         alert('Please provide a valid input');
         input1.focus;
+        return
     }
 
     if (!reg.test(input2.value)) {
         alert('Please provide a valid input');
         input2.focus;
+        return
     }
 
     e.preventDefault();

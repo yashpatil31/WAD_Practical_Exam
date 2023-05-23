@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-container{
+    /* min-height: 100vh; */
+    border: 2px solid black;
+}
+
+.form-heading{
+    color: red;
+    background-color: bisque;
+}
