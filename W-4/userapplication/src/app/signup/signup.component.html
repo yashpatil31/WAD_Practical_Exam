@@ -1,0 +1,23 @@
+<div class="container w-50 m-auto">
+    <h3 class="display-6 text-center">Signup</h3>
+    <form [formGroup]="signup" (ngSubmit)="signupformhandler()">
+        <div class="mb-3">
+            <label for="name" class="form-label">Enter Full Name</label>
+            <input formControlName="fname" type="text" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Enter Phone Number</label>
+            <input formControlName="phone" type="text" class="form-control" required>
+          </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Enter Email address</label>
+          <input formControlName="email" type="email" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Enter Password</label>
+          <input formControlName="password" type="password" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Signup</button>
+      </form>
+</div>
+

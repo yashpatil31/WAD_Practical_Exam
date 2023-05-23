@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "fname": "Yash Patil",
+      "phone": "878405678",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "id": 1
+    }
+  ]
+}
